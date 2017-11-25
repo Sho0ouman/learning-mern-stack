@@ -4,12 +4,20 @@
   "description": "first MERN app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "comp": "babel ./static/src --presets react,env -o ./static/app.js",
+    "watch": "babel ./static/src --presets react,env -o ./static/app.js -w"
   },
   "keywords": [],
   "author": "mshouman",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:Sho0ouman/learning-mern-stack.git"
+  },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
     "express": "^4.16.2",
     "livereload-js": "^2.2.2"
   }
