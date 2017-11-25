@@ -1,0 +1,16 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "first MERN app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "mshouman",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "livereload-js": "^2.2.2"
+  }
+}
