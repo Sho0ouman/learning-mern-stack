@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "comp": "babel ./static/src --presets react,env -o ./static/app.js",
-    "watch": "babel ./static/src --presets react,env -o ./static/app.js -w"
+    "watch": "babel ./static/src --presets react,env -o ./static/app.js -w",
+	"push": "git push origin master",
+	"stage-all": "git add ."
   },
   "keywords": [],
   "author": "mshouman",
